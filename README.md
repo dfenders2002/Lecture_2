@@ -1,5 +1,5 @@
 # -Daan Enders 1018410
-# -lecture_2
+# Lecture_2
 ## EXCERCISE 1 WORKING WITH CONTAINERS  
 ### THE BASIC COMMANDS TO START WITH  
 docker help   
