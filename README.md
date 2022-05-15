@@ -32,4 +32,4 @@ Untagged: nginx@sha256:5a0df7fb7c8c03e4158ae9974bfbd6a15da2bdfdeded4fb694367ec81
 Deleted: sha256:51696c87e77e4ff7a53af9be837f35d4eacdb47b4ca83ba5fd5e4b5101d98502  
 
 ### Volume mounting  
-docker run --name VolumeMounting -d -p 20080:80 -v C:\Users\dfend\GithubCloudDev:/usr/share/nginx/html:ro nginx:alpine  
+docker run --name VolumeMounting -d -p 20080:80 -v C:\CloudDevGit\Lecture_2\www:/usr/share/nginx/html:ro nginx:alpine
