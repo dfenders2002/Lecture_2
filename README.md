@@ -33,3 +33,6 @@ Deleted: sha256:51696c87e77e4ff7a53af9be837f35d4eacdb47b4ca83ba5fd5e4b5101d98502
 
 ### Volume mounting  
 docker run --name VolumeMounting -d -p 20080:80 -v C:\CloudDevGit\Lecture_2\www:/usr/share/nginx/html:ro nginx:alpine
+
+### Optional: explore the docker image and its layers
+C:\CloudDevGit\Lecture_2\dive_0.9.2_windows_amd64\dive nginx:alpine  
