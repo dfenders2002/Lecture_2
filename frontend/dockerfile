@@ -1,3 +1,8 @@
+# Dockerfile for using NGINX latest version.
 FROM nginx
+
+EXPOSE 80/tcp
+
+# Copies the nginx config and angular files to the docker container.
 COPY src /usr/share/nginx/html
 COPY resources/nginx.conf /etc/nginx/nginx.conf
